@@ -1,0 +1,10 @@
+@hostname = https://localhost:7073
+
+POST {{hostname}}/auth/login
+Accept: application/json
+
+{
+    "email": "fnd.gomes02@gmail.com",
+    "password": "Teste@123"
+}
+###
