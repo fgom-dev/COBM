@@ -20,9 +20,7 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 9.x
-    - name: Restore dependencies
-      run: dotnet restore ./Cob.sln
     - name: Build
-      run: dotnet build ./Cob.sln --no-restore
+      run: dotnet build ./Cobm.sln --no-restore
     - name: Test
-      run: dotnet test ./Cob.sln --no-build --verbosity normal
+      run: dotnet test ./Cobm.sln --no-build --verbosity normal
