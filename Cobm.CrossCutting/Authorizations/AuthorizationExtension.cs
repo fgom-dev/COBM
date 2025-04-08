@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
-namespace Cobm.CrossCutting.Authorization;
+namespace Cobm.CrossCutting.Authorizations;
 
 public static class AuthorizationExtension
 {

@@ -1,6 +1,6 @@
 using Cobm.Application.Helpers;
 using Cobm.CrossCutting.AppDependencies;
-using Cobm.CrossCutting.Authorization;
+using Cobm.CrossCutting.Authorizations;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
